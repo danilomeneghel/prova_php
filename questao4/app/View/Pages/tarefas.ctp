@@ -1,6 +1,6 @@
 <div class="row">
     <div class="col s12">
-            <h4 class="header">Cadastrar Tarefa</h4>
+            <h4 class="header">Tarefas</h4>
             <br>
             <div>Clique e arraste a tarefa para ordenar a prioridade</div>
             <div class="clearfix"></div>
@@ -21,7 +21,7 @@
 
 <div id="modal1" class="modal">
     <div class="modal-content">
-        <h5>data[title_for_layout]</h5>
+        <h5>Cadastrar Tarefa</h5>
         <hr><br>
         <form class="col s12" accept-charset="utf-8">
         <input type="hidden" name="data[Tarefa][id]" id="TarefaId" />
