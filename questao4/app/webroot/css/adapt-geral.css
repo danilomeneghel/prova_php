@@ -1,0 +1,12 @@
+
+ol#lista-tarefas li { opacity: 0; }
+
+.collection li span.titulo {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+
+.collection li span.descricao {
+	margin-left: 10px;
+}

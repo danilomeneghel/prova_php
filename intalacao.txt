@@ -1,0 +1,72 @@
+Manual de Instalação
+
+Prova PHP - BDR
+
+
+Abaixo estão os arquivos e pasta para acessar cada uma das questões da prova
+
+Questão 1:
+questao1.php`
+
+Questão 2:
+questao2.php`
+
+Questão 3:
+questao3.php`
+
+Questão 4:
+questao04/
+
+Instalação
+
+1. Clonar repositório do Github
+https://github.com/danilomeneghel/prova_php.git
+
+2. Importar o arquivo "prova_php.sql" para o Banco de Dados
+
+3. Configurar Banco de Dados 
+
+Abra o arquivo "/questao4/app/Config/database.php" e altere as variáveis conforme o banco de dados local
+
+class DATABASE_CONFIG {
+
+	public $default = array(
+		'datasource' => 'Database/Mysql',
+		'persistent' => false,
+		'host' => 'localhost',
+		'login' => 'root',
+		'password' => '',
+		'database' => 'prova_php',
+		'encoding' => 'utf8',
+	);
+}
+
+4. Rodar o projeto da pasta "questao4".
+
+Exemplo:
+http://localhost/prova_php/questao4/
+
+
+Requisitos:
+
+Caso o CSS e JS não carregue, será necessário habilitar o mod_rewrite no Apache
+Abra o arquivo conf/httpd.conf dentro do seu Apache e descomente a seguinte linha:
+LoadModule rewrite_module modules/mod_rewrite.so
+
+Após reinicie o Apache.
+Isso fará com que o mod_write seja habilitado, que é o responsável pelo carregamento de URLs amigaveis.
+
+
+
+Tecnologias usadas:
+
+PHP 5.4.16
+Mysql 5.6.12
+Apache 2.4.4
+CakePHP 0.2.9
+
+
+
+Desenvolvido por 
+
+Danilo Meneghel

@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Papermashup.com | JQuery Drag and Drop Demo</title>
+<link href="../style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.js"></script>
+<style>
+ul {
+	padding:0px;
+	margin: 0px;
+}
+#response {
+	padding:10px;
+	background-color:#9F9;
+	border:2px solid #396;
+	margin-bottom:20px;
+}
+#list li {
+	margin: 0 0 3px;
+	padding:8px;
+	background-color:#333;
+	color:#fff;
+	list-style: none;
+}
+</style>
+<script type="text/javascript">
+$(document).ready(function(){ 	
+	  function slideout(){
+  setTimeout(function(){
+  $("#response").slideUp("slow", function () {
+      });
+    
+}, 2000);}
+	
+    $("#response").hide();
+	$(function() {
+	$("#list ul").sortable({ opacity: 0.8, cursor: 'move', update: function() {
+			
+			//var order = $(this).sortable("serialize") + '&update=update'; 
+			
+		    var username = 'ashley';
+			var order = $(this).sortable("serialize") + '&update=update' + '&username=' + username; 
+                        alert(order);
+			
+			$.post("updateList.php", order, function(theResponse){
+				$("#response").html(theResponse);
+				$("#response").slideDown('slow');
+				slideout();
+			}); 															 
+		}								  
+		});
+	});
+
+});	
+</script>
+</head>
+<body>
+
+<noscript><div id="noscript">You need JavaScript enabled to view most of the demos!</div></noscript>
+
+<div id="container">
+<div id="header"><a href="http://www.papermashup.com/"><img src="../images/logo.png" width="348" height="63" border="0" /></a></div>
+<div class="sky_ad" align="right">
+<!- Guardian Select: Technology & Media Tag Begins - Skyscraper ATF -> 
+<script src="http://s3-eu-west-1.amazonaws.com/aws-frontend-store/PROD/commercial/ad-gen.js" data-ad-unit="guardian-select/papermashup.com" data-ad-size="120x600,160x600" data-ad-target-slot="inline1" data-ad-target-n="technologyandmedia,professional" data-ad-target-s="businessandtechnology,marketing"></script>
+<!- Guardian Select: Technology & Media Tag Ends - Skyscraper ATF -> </div>
+<div id="inner_wrap">
+  <div id="list">
+
+    <div id="response"> </div>
+    <ul>
+            <li id="arrayorder6">6 Wash the car        <div class="clear"></div>
+      </li>
+            <li id="arrayorder2">2 Take the dog for a walk        <div class="clear"></div>
+      </li>
+            <li id="arrayorder3">3 Go swimming        <div class="clear"></div>
+      </li>
+            <li id="arrayorder1">1 Go Shopping        <div class="clear"></div>
+      </li>
+            <li id="arrayorder4">4 Go to the Gym        <div class="clear"></div>
+      </li>
+            <li id="arrayorder7">7 Take the kids to school        <div class="clear"></div>
+      </li>
+            <li id="arrayorder5">5 Pick up the wife from work        <div class="clear"></div>
+      </li>
+          </ul>
+  </div>
+
+
+
+</div>
+<div id="footer"> &nbsp;<a href="http://www.papermashup.com">Papermashup.com</a> | <a href="http://feeds2.feedburner.com/AshleyFord-Papermashupcom">Subscribe</a> | <a href="http://papermashup.com/drag-drop-with-php-jquery/">Back To Tutorial</a><br/>
+
+<div class="google-advert" style=" margin-top:6px; height:100px">
+
+
+
+</div>
+</div>
+</div>
+
+
+
+<!-- PAPERMASHUP GOOGLE ANALYTICS CODE START - PLEASE REMOVE THIS JAVASCRIPT IF COPYING THE SOURCE CODE DIRECTLY -->
+<!-- DO NOT ADD THIS CODE TO YOUR WEBSITE!!!! -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-7025232-16']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- PAPERMASHUP GOOGLE ANALYTICS CODE END - PLEASE REMOVE THIS JAVASCRIPT IF COPYING THE SOURCE CODE DIRECTLY -->
+</body>
+</html>
