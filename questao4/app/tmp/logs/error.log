@@ -1,0 +1,2866 @@
+2015-12-08 17:31:30 Error: [MissingTableException] Table tarefas_tags for model TarefasTag was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tarefas_tags',
+  'class' => 'TarefasTag',
+  'ds' => 'default',
+)
+Request URL: /prova_php/questao4/tarefas/delete/1?url=tarefas%2Fdelete%2F1
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(3653): Model->setSource('tarefas_tags')
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(891): Model->schema()
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(919): Model->__isset('TarefasTag')
+#4 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(2793): Model->__get('TarefasTag')
+#5 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(2695): Model->_deleteLinks('1')
+#6 C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php(227): Model->delete()
+#7 [internal function]: TarefasController->delete('1')
+#8 C:\wamp\www\prova_php\questao4\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TarefasController), Array)
+#9 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#11 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-08 17:31:36 Error: [MissingTableException] Table tarefas_tags for model TarefasTag was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tarefas_tags',
+  'class' => 'TarefasTag',
+  'ds' => 'default',
+)
+Request URL: /prova_php/questao4/tarefas/delete/1?url=tarefas%2Fdelete%2F1
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(3653): Model->setSource('tarefas_tags')
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(891): Model->schema()
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(919): Model->__isset('TarefasTag')
+#4 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(2793): Model->__get('TarefasTag')
+#5 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(2695): Model->_deleteLinks('1')
+#6 C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php(227): Model->delete()
+#7 [internal function]: TarefasController->delete('1')
+#8 C:\wamp\www\prova_php\questao4\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TarefasController), Array)
+#9 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#11 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-08 17:31:42 Error: [MissingTableException] Table tarefas_tags for model TarefasTag was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tarefas_tags',
+  'class' => 'TarefasTag',
+  'ds' => 'default',
+)
+Request URL: /prova_php/questao4/tarefas/delete/1?url=tarefas%2Fdelete%2F1
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(3653): Model->setSource('tarefas_tags')
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(891): Model->schema()
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(919): Model->__isset('TarefasTag')
+#4 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(2793): Model->__get('TarefasTag')
+#5 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(2695): Model->_deleteLinks('1')
+#6 C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php(227): Model->delete()
+#7 [internal function]: TarefasController->delete('1')
+#8 C:\wamp\www\prova_php\questao4\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TarefasController), Array)
+#9 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#11 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-08 17:31:58 Error: [MissingTableException] Table tarefas_tags for model TarefasTag was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tarefas_tags',
+  'class' => 'TarefasTag',
+  'ds' => 'default',
+)
+Request URL: /prova_php/questao4/tarefas/delete/2?url=tarefas%2Fdelete%2F2
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(3653): Model->setSource('tarefas_tags')
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(891): Model->schema()
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(919): Model->__isset('TarefasTag')
+#4 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(2793): Model->__get('TarefasTag')
+#5 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(2695): Model->_deleteLinks('2')
+#6 C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php(227): Model->delete()
+#7 [internal function]: TarefasController->delete('2')
+#8 C:\wamp\www\prova_php\questao4\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TarefasController), Array)
+#9 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#11 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-08 17:32:05 Error: [MissingTableException] Table tarefas_tags for model TarefasTag was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tarefas_tags',
+  'class' => 'TarefasTag',
+  'ds' => 'default',
+)
+Request URL: /prova_php/questao4/tarefas/delete/2?url=tarefas%2Fdelete%2F2
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(3653): Model->setSource('tarefas_tags')
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(891): Model->schema()
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(919): Model->__isset('TarefasTag')
+#4 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(2793): Model->__get('TarefasTag')
+#5 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(2695): Model->_deleteLinks('2')
+#6 C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php(227): Model->delete()
+#7 [internal function]: TarefasController->delete('2')
+#8 C:\wamp\www\prova_php\questao4\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TarefasController), Array)
+#9 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#11 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-08 17:36:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 17:36:55 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 17:38:39 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 17:50:50 Error: [MissingTableException] Table tarefas_tags for model TarefasTag was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tarefas_tags',
+  'class' => 'TarefasTag',
+  'ds' => 'default',
+)
+Request URL: /prova_php/questao4/tarefas/delete/4?url=tarefas%2Fdelete%2F4
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(3653): Model->setSource('tarefas_tags')
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(891): Model->schema()
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(919): Model->__isset('TarefasTag')
+#4 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(2793): Model->__get('TarefasTag')
+#5 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(2695): Model->_deleteLinks('4')
+#6 C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php(165): Model->delete()
+#7 [internal function]: TarefasController->delete('4')
+#8 C:\wamp\www\prova_php\questao4\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TarefasController), Array)
+#9 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#11 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-08 18:02:35 Error: [MissingActionException] Action TarefasController::atualizaPrioridade() could not be found.
+Exception Attributes: array (
+  'controller' => 'TarefasController',
+  'action' => 'atualizaPrioridade',
+)
+Request URL: /prova_php/questao4/tarefas/atualizaPrioridade/2/1?url=tarefas%2FatualizaPrioridade%2F2%2F1
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#2 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-08 18:02:35 Error: [MissingActionException] Action TarefasController::atualizaPrioridade() could not be found.
+Exception Attributes: array (
+  'controller' => 'TarefasController',
+  'action' => 'atualizaPrioridade',
+)
+Request URL: /prova_php/questao4/tarefas/atualizaPrioridade/2/0?url=tarefas%2FatualizaPrioridade%2F2%2F0
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#2 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-08 18:02:43 Error: [MissingActionException] Action TarefasController::atualizaPrioridade() could not be found.
+Exception Attributes: array (
+  'controller' => 'TarefasController',
+  'action' => 'atualizaPrioridade',
+)
+Request URL: /prova_php/questao4/tarefas/atualizaPrioridade/4/1?url=tarefas%2FatualizaPrioridade%2F4%2F1
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#2 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-08 18:02:55 Error: [MissingActionException] Action TarefasController::atualizaPrioridade() could not be found.
+Exception Attributes: array (
+  'controller' => 'TarefasController',
+  'action' => 'atualizaPrioridade',
+)
+Request URL: /prova_php/questao4/tarefas/atualizaPrioridade/3/1?url=tarefas%2FatualizaPrioridade%2F3%2F1
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#2 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-08 18:07:56 Error: [MissingActionException] Action TarefasController::atualizaPrioridade() could not be found.
+Exception Attributes: array (
+  'controller' => 'TarefasController',
+  'action' => 'atualizaPrioridade',
+)
+Request URL: /prova_php/questao4/tarefas/atualizaPrioridade/1/2?url=tarefas%2FatualizaPrioridade%2F1%2F2
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#2 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-08 18:08:00 Error: [MissingActionException] Action TarefasController::atualizaPrioridade() could not be found.
+Exception Attributes: array (
+  'controller' => 'TarefasController',
+  'action' => 'atualizaPrioridade',
+)
+Request URL: /prova_php/questao4/tarefas/atualizaPrioridade/4/1?url=tarefas%2FatualizaPrioridade%2F4%2F1
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#2 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-08 18:33:49 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Request URL: /prova_php/questao4/tarefas/atualizaPrioridade/4/1?url=tarefas%2FatualizaPrioridade%2F4%2F1
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute(' update tarefas...', Array)
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute(' update tarefas...', Array, Array)
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll(' update tarefas...')
+#4 [internal function]: DboSource->query(' update tarefas...')
+#5 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(3456): call_user_func_array(Array, Array)
+#6 C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php(181): Model->query(' update tarefas...')
+#7 [internal function]: TarefasController->atualizaPrioridade('4', '1')
+#8 C:\wamp\www\prova_php\questao4\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TarefasController), Array)
+#9 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#11 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-08 18:34:32 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Request URL: /prova_php/questao4/tarefas/atualizaPrioridade/3/1?url=tarefas%2FatualizaPrioridade%2F3%2F1
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute(' update tarefas...', Array)
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute(' update tarefas...', Array, Array)
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll(' update tarefas...')
+#4 [internal function]: DboSource->query(' update tarefas...')
+#5 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(3456): call_user_func_array(Array, Array)
+#6 C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php(181): Model->query(' update tarefas...')
+#7 [internal function]: TarefasController->atualizaPrioridade('3', '1')
+#8 C:\wamp\www\prova_php\questao4\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TarefasController), Array)
+#9 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#11 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-08 18:34:50 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Request URL: /prova_php/questao4/tarefas/atualizaPrioridade/4/0?url=tarefas%2FatualizaPrioridade%2F4%2F0
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute(' update tarefas...', Array)
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute(' update tarefas...', Array, Array)
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll(' update tarefas...')
+#4 [internal function]: DboSource->query(' update tarefas...')
+#5 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(3456): call_user_func_array(Array, Array)
+#6 C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php(181): Model->query(' update tarefas...')
+#7 [internal function]: TarefasController->atualizaPrioridade('4', '0')
+#8 C:\wamp\www\prova_php\questao4\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TarefasController), Array)
+#9 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#11 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-08 18:35:50 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Request URL: /prova_php/questao4/tarefas/atualizaPrioridade/3/0
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute(' update tarefas...', Array)
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute(' update tarefas...', Array, Array)
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll(' update tarefas...')
+#4 [internal function]: DboSource->query(' update tarefas...')
+#5 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(3456): call_user_func_array(Array, Array)
+#6 C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php(181): Model->query(' update tarefas...')
+#7 [internal function]: TarefasController->atualizaPrioridade('3', '0')
+#8 C:\wamp\www\prova_php\questao4\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TarefasController), Array)
+#9 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#11 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-08 18:41:24 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Request URL: /prova_php/questao4/tarefas/atualizaPrioridade/2/0
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute(' update tarefas...', Array)
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute(' update tarefas...', Array, Array)
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll(' update tarefas...')
+#4 [internal function]: DboSource->query(' update tarefas...')
+#5 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(3456): call_user_func_array(Array, Array)
+#6 C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php(181): Model->query(' update tarefas...')
+#7 [internal function]: TarefasController->atualizaPrioridade('2', '0')
+#8 C:\wamp\www\prova_php\questao4\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TarefasController), Array)
+#9 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#11 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-08 18:43:00 Error: [MissingControllerException] Controller class PagesController could not be found.
+Exception Attributes: array (
+  'class' => 'PagesController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 18:43:06 Error: [MissingControllerException] Controller class PagesController could not be found.
+Exception Attributes: array (
+  'class' => 'PagesController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 18:43:08 Error: [MissingControllerException] Controller class PagesController could not be found.
+Exception Attributes: array (
+  'class' => 'PagesController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 18:43:28 Error: [MissingControllerException] Controller class PagesController could not be found.
+Exception Attributes: array (
+  'class' => 'PagesController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 18:44:02 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Request URL: /prova_php/questao4/tarefas/atualizaPrioridade/2/0
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute(' update tarefas...', Array)
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute(' update tarefas...', Array, Array)
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll(' update tarefas...')
+#4 [internal function]: DboSource->query(' update tarefas...')
+#5 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(3456): call_user_func_array(Array, Array)
+#6 C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php(181): Model->query(' update tarefas...')
+#7 [internal function]: TarefasController->atualizaPrioridade('2', '0')
+#8 C:\wamp\www\prova_php\questao4\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TarefasController), Array)
+#9 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#11 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-08 18:46:49 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Request URL: /prova_php/questao4/tarefas/atualizaPrioridade/2/0?url=tarefas%2FatualizaPrioridade%2F2%2F0
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute(' update tarefas...', Array)
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute(' update tarefas...', Array, Array)
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll(' update tarefas...')
+#4 [internal function]: DboSource->query(' update tarefas...')
+#5 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(3456): call_user_func_array(Array, Array)
+#6 C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php(181): Model->query(' update tarefas...')
+#7 [internal function]: TarefasController->atualizaPrioridade('2', '0')
+#8 C:\wamp\www\prova_php\questao4\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TarefasController), Array)
+#9 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#11 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-08 19:05:33 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Request URL: /prova_php/questao4/tarefas/atualizaPrioridade/2/0?url=tarefas%2FatualizaPrioridade%2F2%2F0
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute(' update tarefas...', Array)
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute(' update tarefas...', Array, Array)
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll(' update tarefas...')
+#4 [internal function]: DboSource->query(' update tarefas...')
+#5 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(3456): call_user_func_array(Array, Array)
+#6 C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php(181): Model->query(' update tarefas...')
+#7 [internal function]: TarefasController->atualizaPrioridade('2', '0')
+#8 C:\wamp\www\prova_php\questao4\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TarefasController), Array)
+#9 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#11 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-08 19:07:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 19:07:39 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 19:07:52 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 19:09:38 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 19:10:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 19:11:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 19:11:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 19:11:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 19:13:34 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 19:14:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 19:22:37 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where id = 2' at line 1
+Request URL: /prova_php/questao4/tarefas/atualizaPrioridade/2?url=tarefas%2FatualizaPrioridade%2F2
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute(' update tarefas...', Array)
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute(' update tarefas...', Array, Array)
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll(' update tarefas...')
+#4 [internal function]: DboSource->query(' update tarefas...')
+#5 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(3456): call_user_func_array(Array, Array)
+#6 C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php(188): Model->query(' update tarefas...')
+#7 [internal function]: TarefasController->atualizaPrioridade('2')
+#8 C:\wamp\www\prova_php\questao4\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TarefasController), Array)
+#9 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#11 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-08 19:31:11 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Request URL: /prova_php/questao4/tarefas/atualizaPrioridade/2/0?url=tarefas%2FatualizaPrioridade%2F2%2F0
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute(' update tarefas...', Array)
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute(' update tarefas...', Array, Array)
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll(' update tarefas...')
+#4 [internal function]: DboSource->query(' update tarefas...')
+#5 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(3456): call_user_func_array(Array, Array)
+#6 C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php(182): Model->query(' update tarefas...')
+#7 [internal function]: TarefasController->atualizaPrioridade('2', '0')
+#8 C:\wamp\www\prova_php\questao4\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TarefasController), Array)
+#9 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#11 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-08 19:31:17 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Request URL: /prova_php/questao4/tarefas/atualizaPrioridade/2/1?url=tarefas%2FatualizaPrioridade%2F2%2F1
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute(' update tarefas...', Array)
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute(' update tarefas...', Array, Array)
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll(' update tarefas...')
+#4 [internal function]: DboSource->query(' update tarefas...')
+#5 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(3456): call_user_func_array(Array, Array)
+#6 C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php(182): Model->query(' update tarefas...')
+#7 [internal function]: TarefasController->atualizaPrioridade('2', '1')
+#8 C:\wamp\www\prova_php\questao4\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TarefasController), Array)
+#9 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#11 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-08 19:31:34 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Request URL: /prova_php/questao4/tarefas/atualizaPrioridade/2/0?url=tarefas%2FatualizaPrioridade%2F2%2F0
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute(' update tarefas...', Array)
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute(' update tarefas...', Array, Array)
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll(' update tarefas...')
+#4 [internal function]: DboSource->query(' update tarefas...')
+#5 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(3456): call_user_func_array(Array, Array)
+#6 C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php(182): Model->query(' update tarefas...')
+#7 [internal function]: TarefasController->atualizaPrioridade('2', '0')
+#8 C:\wamp\www\prova_php\questao4\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TarefasController), Array)
+#9 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#11 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-08 19:32:14 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Request URL: /prova_php/questao4/tarefas/atualizaPrioridade/2/0?url=tarefas%2FatualizaPrioridade%2F2%2F0
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute(' update tarefas...', Array)
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute(' update tarefas...', Array, Array)
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll(' update tarefas...')
+#4 [internal function]: DboSource->query(' update tarefas...')
+#5 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(3456): call_user_func_array(Array, Array)
+#6 C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php(182): Model->query(' update tarefas...')
+#7 [internal function]: TarefasController->atualizaPrioridade('2', '0')
+#8 C:\wamp\www\prova_php\questao4\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TarefasController), Array)
+#9 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#11 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-08 19:33:00 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Request URL: /prova_php/questao4/tarefas/atualizaPrioridade/2/0?url=tarefas%2FatualizaPrioridade%2F2%2F0
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute(' update tarefas...', Array)
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute(' update tarefas...', Array, Array)
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll(' update tarefas...')
+#4 [internal function]: DboSource->query(' update tarefas...')
+#5 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(3456): call_user_func_array(Array, Array)
+#6 C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php(182): Model->query(' update tarefas...')
+#7 [internal function]: TarefasController->atualizaPrioridade('2', '0')
+#8 C:\wamp\www\prova_php\questao4\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TarefasController), Array)
+#9 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#11 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-08 19:37:16 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'prioridade' cannot be null
+Request URL: /prova_php/questao4/tarefas/add?url=tarefas%2Fadd
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `pr...', Array)
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(1024): DboSource->execute('INSERT INTO `pr...')
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(1933): DboSource->create(Object(Tarefa), Array, Array)
+#4 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php(69): Model->save(Array)
+#6 [internal function]: TarefasController->add()
+#7 C:\wamp\www\prova_php\questao4\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TarefasController), Array)
+#8 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#10 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-12-08 19:38:50 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'prioridade' cannot be null
+Request URL: /prova_php/questao4/tarefas/add?url=tarefas%2Fadd
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `pr...', Array)
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(1024): DboSource->execute('INSERT INTO `pr...')
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(1933): DboSource->create(Object(Tarefa), Array, Array)
+#4 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php(69): Model->save(Array)
+#6 [internal function]: TarefasController->add()
+#7 C:\wamp\www\prova_php\questao4\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TarefasController), Array)
+#8 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#10 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-12-08 19:39:00 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'prioridade' cannot be null
+Request URL: /prova_php/questao4/tarefas/add?url=tarefas%2Fadd
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `pr...', Array)
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(1024): DboSource->execute('INSERT INTO `pr...')
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(1933): DboSource->create(Object(Tarefa), Array, Array)
+#4 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php(69): Model->save(Array)
+#6 [internal function]: TarefasController->add()
+#7 C:\wamp\www\prova_php\questao4\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TarefasController), Array)
+#8 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#10 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-12-08 19:40:02 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'prioridade' cannot be null
+Request URL: /prova_php/questao4/tarefas/add?url=tarefas%2Fadd
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `pr...', Array)
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(1024): DboSource->execute('INSERT INTO `pr...')
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(1933): DboSource->create(Object(Tarefa), Array, Array)
+#4 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php(69): Model->save(Array)
+#6 [internal function]: TarefasController->add()
+#7 C:\wamp\www\prova_php\questao4\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TarefasController), Array)
+#8 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#10 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-12-08 19:40:11 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'prioridade' cannot be null
+Request URL: /prova_php/questao4/tarefas/add?url=tarefas%2Fadd
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `pr...', Array)
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(1024): DboSource->execute('INSERT INTO `pr...')
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(1933): DboSource->create(Object(Tarefa), Array, Array)
+#4 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php(69): Model->save(Array)
+#6 [internal function]: TarefasController->add()
+#7 C:\wamp\www\prova_php\questao4\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TarefasController), Array)
+#8 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#10 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-12-08 19:41:45 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'prioridade' cannot be null
+Request URL: /prova_php/questao4/tarefas/add?url=tarefas%2Fadd
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `pr...', Array)
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(1024): DboSource->execute('INSERT INTO `pr...')
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(1933): DboSource->create(Object(Tarefa), Array, Array)
+#4 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php(69): Model->save(Array)
+#6 [internal function]: TarefasController->add()
+#7 C:\wamp\www\prova_php\questao4\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TarefasController), Array)
+#8 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#10 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-12-08 19:42:38 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'prioridade' cannot be null
+Request URL: /prova_php/questao4/tarefas/add?url=tarefas%2Fadd
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `pr...', Array)
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(1024): DboSource->execute('INSERT INTO `pr...')
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(1933): DboSource->create(Object(Tarefa), Array, Array)
+#4 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php(69): Model->save(Array)
+#6 [internal function]: TarefasController->add()
+#7 C:\wamp\www\prova_php\questao4\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TarefasController), Array)
+#8 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#10 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-12-08 19:42:47 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'prioridade' cannot be null
+Request URL: /prova_php/questao4/tarefas/add?url=tarefas%2Fadd
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `pr...', Array)
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(1024): DboSource->execute('INSERT INTO `pr...')
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(1933): DboSource->create(Object(Tarefa), Array, Array)
+#4 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php(69): Model->save(Array)
+#6 [internal function]: TarefasController->add()
+#7 C:\wamp\www\prova_php\questao4\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TarefasController), Array)
+#8 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#10 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-12-08 19:44:50 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Request URL: /prova_php/questao4/tarefas/atualizaPrioridade/2/0?url=tarefas%2FatualizaPrioridade%2F2%2F0
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute(' update tarefas...', Array)
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute(' update tarefas...', Array, Array)
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll(' update tarefas...')
+#4 [internal function]: DboSource->query(' update tarefas...')
+#5 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(3456): call_user_func_array(Array, Array)
+#6 C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php(181): Model->query(' update tarefas...')
+#7 [internal function]: TarefasController->atualizaPrioridade('2', '0')
+#8 C:\wamp\www\prova_php\questao4\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TarefasController), Array)
+#9 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#11 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-08 19:45:06 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Request URL: /prova_php/questao4/tarefas/atualizaPrioridade/2/0?url=tarefas%2FatualizaPrioridade%2F2%2F0
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute(' update tarefas...', Array)
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute(' update tarefas...', Array, Array)
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll(' update tarefas...')
+#4 [internal function]: DboSource->query(' update tarefas...')
+#5 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(3456): call_user_func_array(Array, Array)
+#6 C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php(181): Model->query(' update tarefas...')
+#7 [internal function]: TarefasController->atualizaPrioridade('2', '0')
+#8 C:\wamp\www\prova_php\questao4\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TarefasController), Array)
+#9 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#11 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-08 19:45:30 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Request URL: /prova_php/questao4/tarefas/atualizaPrioridade/3/0?url=tarefas%2FatualizaPrioridade%2F3%2F0
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute(' update tarefas...', Array)
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute(' update tarefas...', Array, Array)
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll(' update tarefas...')
+#4 [internal function]: DboSource->query(' update tarefas...')
+#5 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(3456): call_user_func_array(Array, Array)
+#6 C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php(181): Model->query(' update tarefas...')
+#7 [internal function]: TarefasController->atualizaPrioridade('3', '0')
+#8 C:\wamp\www\prova_php\questao4\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TarefasController), Array)
+#9 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#11 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-08 19:45:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 19:45:54 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Request URL: /prova_php/questao4/tarefas/atualizaPrioridade/3/1?url=tarefas%2FatualizaPrioridade%2F3%2F1
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute(' update tarefas...', Array)
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute(' update tarefas...', Array, Array)
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll(' update tarefas...')
+#4 [internal function]: DboSource->query(' update tarefas...')
+#5 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(3456): call_user_func_array(Array, Array)
+#6 C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php(181): Model->query(' update tarefas...')
+#7 [internal function]: TarefasController->atualizaPrioridade('3', '1')
+#8 C:\wamp\www\prova_php\questao4\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TarefasController), Array)
+#9 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#11 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-08 19:45:55 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 19:46:04 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Request URL: /prova_php/questao4/tarefas/atualizaPrioridade/3/0?url=tarefas%2FatualizaPrioridade%2F3%2F0
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute(' update tarefas...', Array)
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute(' update tarefas...', Array, Array)
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll(' update tarefas...')
+#4 [internal function]: DboSource->query(' update tarefas...')
+#5 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(3456): call_user_func_array(Array, Array)
+#6 C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php(181): Model->query(' update tarefas...')
+#7 [internal function]: TarefasController->atualizaPrioridade('3', '0')
+#8 C:\wamp\www\prova_php\questao4\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TarefasController), Array)
+#9 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#11 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-08 19:46:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 19:48:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 19:49:46 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 19:49:51 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 19:50:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 19:50:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 19:51:52 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 19:51:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 19:52:46 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 19:53:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 19:53:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 19:53:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 19:55:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 19:55:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 19:55:57 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Request URL: /prova_php/questao4/tarefas/atualizaPrioridade/2/0?url=tarefas%2FatualizaPrioridade%2F2%2F0
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute(' update tarefas...', Array)
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute(' update tarefas...', Array, Array)
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll(' update tarefas...')
+#4 [internal function]: DboSource->query(' update tarefas...')
+#5 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(3456): call_user_func_array(Array, Array)
+#6 C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php(177): Model->query(' update tarefas...')
+#7 [internal function]: TarefasController->atualizaPrioridade('2', '0')
+#8 C:\wamp\www\prova_php\questao4\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TarefasController), Array)
+#9 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#11 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-08 19:55:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:00:55 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:01:03 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-1) where prioridade <= 0 and prioridade >' at line 1
+Request URL: /prova_php/questao4/tarefas/atualizaPrioridade/2/0?url=tarefas%2FatualizaPrioridade%2F2%2F0
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('-1) where prior...', Array)
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('-1) where prior...', Array, Array)
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('-1) where prior...')
+#4 [internal function]: DboSource->query('-1) where prior...')
+#5 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(3456): call_user_func_array(Array, Array)
+#6 C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php(173): Model->query('-1) where prior...')
+#7 [internal function]: TarefasController->atualizaPrioridade('2', '0')
+#8 C:\wamp\www\prova_php\questao4\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TarefasController), Array)
+#9 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#11 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-08 20:01:04 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:02:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:02:33 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-1) where prioridade <= 0 and prioridade >' at line 1
+Request URL: /prova_php/questao4/tarefas/atualizaPrioridade/2/0?url=tarefas%2FatualizaPrioridade%2F2%2F0
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('-1) where prior...', Array)
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('-1) where prior...', Array, Array)
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('-1) where prior...')
+#4 [internal function]: DboSource->query('-1) where prior...')
+#5 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(3456): call_user_func_array(Array, Array)
+#6 C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php(175): Model->query('-1) where prior...')
+#7 [internal function]: TarefasController->atualizaPrioridade('2', '0')
+#8 C:\wamp\www\prova_php\questao4\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TarefasController), Array)
+#9 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#11 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-08 20:02:34 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:07:54 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:08:04 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Request URL: /prova_php/questao4/tarefas/atualizaPrioridade/2/0?url=tarefas%2FatualizaPrioridade%2F2%2F0
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('update tarefas ...', Array)
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('update tarefas ...', Array, Array)
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('update tarefas ...')
+#4 [internal function]: DboSource->query('update tarefas ...')
+#5 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(3456): call_user_func_array(Array, Array)
+#6 C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php(177): Model->query('update tarefas ...')
+#7 [internal function]: TarefasController->atualizaPrioridade('2', '0')
+#8 C:\wamp\www\prova_php\questao4\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TarefasController), Array)
+#9 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#11 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-08 20:08:06 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:08:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:08:55 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Request URL: /prova_php/questao4/tarefas/atualizaPrioridade/2/0?url=tarefas%2FatualizaPrioridade%2F2%2F0
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('update tarefas ...', Array)
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('update tarefas ...', Array, Array)
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('update tarefas ...')
+#4 [internal function]: DboSource->query('update tarefas ...')
+#5 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(3456): call_user_func_array(Array, Array)
+#6 C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php(177): Model->query('update tarefas ...')
+#7 [internal function]: TarefasController->atualizaPrioridade('2', '0')
+#8 C:\wamp\www\prova_php\questao4\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TarefasController), Array)
+#9 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#11 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-08 20:08:56 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:12:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:12:37 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Request URL: /prova_php/questao4/tarefas/atualizaPrioridade/2/0?url=tarefas%2FatualizaPrioridade%2F2%2F0
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('update tarefas ...', Array)
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('update tarefas ...', Array, Array)
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('update tarefas ...')
+#4 [internal function]: DboSource->query('update tarefas ...')
+#5 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(3456): call_user_func_array(Array, Array)
+#6 C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php(178): Model->query('update tarefas ...')
+#7 [internal function]: TarefasController->atualizaPrioridade('2', '0')
+#8 C:\wamp\www\prova_php\questao4\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TarefasController), Array)
+#9 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#11 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-08 20:12:38 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:13:24 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:13:30 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Request URL: /prova_php/questao4/tarefas/atualizaPrioridade/2/0?url=tarefas%2FatualizaPrioridade%2F2%2F0
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('update tarefas ...', Array)
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('update tarefas ...', Array, Array)
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('update tarefas ...')
+#4 [internal function]: DboSource->query('update tarefas ...')
+#5 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(3456): call_user_func_array(Array, Array)
+#6 C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php(178): Model->query('update tarefas ...')
+#7 [internal function]: TarefasController->atualizaPrioridade('2', '0')
+#8 C:\wamp\www\prova_php\questao4\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TarefasController), Array)
+#9 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#11 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-08 20:13:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:15:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:15:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:16:46 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:16:55 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:18:14 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:18:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:19:09 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1 where prioridade >= 0 and prioridade < 1' at line 1
+Request URL: /prova_php/questao4/tarefas/atualizaPrioridade/3/0?url=tarefas%2FatualizaPrioridade%2F3%2F0
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('1 where priorid...', Array)
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('1 where priorid...', Array, Array)
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('1 where priorid...')
+#4 [internal function]: DboSource->query('1 where priorid...')
+#5 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(3456): call_user_func_array(Array, Array)
+#6 C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php(173): Model->query('1 where priorid...')
+#7 [internal function]: TarefasController->atualizaPrioridade('3', '0')
+#8 C:\wamp\www\prova_php\questao4\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TarefasController), Array)
+#9 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#11 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-08 20:19:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:19:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:20:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:20:14 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1 where prioridade >= 0 and prioridade < 1' at line 1
+Request URL: /prova_php/questao4/tarefas/atualizaPrioridade/3/0?url=tarefas%2FatualizaPrioridade%2F3%2F0
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('1 where priorid...', Array)
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('1 where priorid...', Array, Array)
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('1 where priorid...')
+#4 [internal function]: DboSource->query('1 where priorid...')
+#5 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(3456): call_user_func_array(Array, Array)
+#6 C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php(170): Model->query('1 where priorid...')
+#7 [internal function]: TarefasController->atualizaPrioridade('3', '0')
+#8 C:\wamp\www\prova_php\questao4\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TarefasController), Array)
+#9 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#11 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-08 20:20:15 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:21:15 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:21:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:22:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:23:06 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:24:11 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:24:52 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:25:04 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:25:47 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:25:53 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:26:14 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:26:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:29:46 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:30:06 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:30:20 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:31:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:31:25 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:33:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:33:47 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:33:52 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:39:53 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:42:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:45:20 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:46:53 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:48:08 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:48:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:49:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:49:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:51:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:51:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:52:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:53:08 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:54:04 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:54:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:56:14 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:56:19 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:57:15 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:57:20 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:58:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 20:58:37 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 21:00:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 21:00:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 21:01:11 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 21:01:20 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 21:01:53 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 21:01:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 21:06:00 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 21:06:12 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 21:15:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 21:15:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 21:22:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 21:22:39 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 21:24:06 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 21:26:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 21:26:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 21:26:53 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 21:27:04 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 21:27:12 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 21:34:11 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 21:34:25 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 21:37:54 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 21:38:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 21:39:15 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 21:39:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 21:39:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 21:39:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 21:39:56 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 21:40:06 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 21:40:13 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 21:40:20 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 21:40:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 21:40:35 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 21:41:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 21:41:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 21:42:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 21:43:11 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 21:43:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 21:46:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 21:46:57 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 21:51:07 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 21:51:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 21:55:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 21:55:11 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 21:55:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 21:55:53 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 22:18:15 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 22:21:39 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 22:22:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 22:22:52 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 22:23:08 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 22:23:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 22:25:39 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 22:25:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 23:03:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 23:04:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 23:09:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 23:09:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 23:12:32 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 23:24:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 23:24:19 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 23:24:47 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 23:27:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 23:31:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 23:32:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 23:47:44 Error: Fatal Error (1): Call to undefined function set() in [C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php, line 164]
+2015-12-08 23:47:44 Error: [FatalErrorException] Call to undefined function set()
+Request URL: /prova_php/questao4/tarefas/updatePriority/?url=tarefas%2FupdatePriority%2F
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp\www\pro...', 164)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp\www\pro...', 164, Array)
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp\www\pro...', 164, Array)
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-08 23:47:47 Error: Fatal Error (1): Call to undefined function set() in [C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php, line 164]
+2015-12-08 23:47:47 Error: [FatalErrorException] Call to undefined function set()
+Request URL: /prova_php/questao4/tarefas/updatePriority/?url=tarefas%2FupdatePriority%2F
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp\www\pro...', 164)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp\www\pro...', 164, Array)
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp\www\pro...', 164, Array)
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-08 23:47:53 Error: Fatal Error (1): Call to undefined function set() in [C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php, line 164]
+2015-12-08 23:47:53 Error: [FatalErrorException] Call to undefined function set()
+Request URL: /prova_php/questao4/tarefas/updatePriority/?url=tarefas%2FupdatePriority%2F
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp\www\pro...', 164)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp\www\pro...', 164, Array)
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp\www\pro...', 164, Array)
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-08 23:53:22 Error: [MissingTableException] Table tarefas_tags for model TarefasTag was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tarefas_tags',
+  'class' => 'TarefasTag',
+  'ds' => 'default',
+)
+Request URL: /prova_php/questao4/tarefas/delete/1?url=tarefas%2Fdelete%2F1
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(3653): Model->setSource('tarefas_tags')
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(891): Model->schema()
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(919): Model->__isset('TarefasTag')
+#4 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(2793): Model->__get('TarefasTag')
+#5 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(2695): Model->_deleteLinks('1')
+#6 C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php(195): Model->delete()
+#7 [internal function]: TarefasController->delete('1')
+#8 C:\wamp\www\prova_php\questao4\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TarefasController), Array)
+#9 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#11 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-08 23:53:56 Error: [MissingTableException] Table tarefas_tags for model TarefasTag was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tarefas_tags',
+  'class' => 'TarefasTag',
+  'ds' => 'default',
+)
+Request URL: /prova_php/questao4/tarefas/delete/3?url=tarefas%2Fdelete%2F3
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(3653): Model->setSource('tarefas_tags')
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(891): Model->schema()
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(919): Model->__isset('TarefasTag')
+#4 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(2793): Model->__get('TarefasTag')
+#5 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(2695): Model->_deleteLinks('3')
+#6 C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php(195): Model->delete()
+#7 [internal function]: TarefasController->delete('3')
+#8 C:\wamp\www\prova_php\questao4\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TarefasController), Array)
+#9 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#11 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-08 23:53:59 Error: [MissingTableException] Table tarefas_tags for model TarefasTag was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tarefas_tags',
+  'class' => 'TarefasTag',
+  'ds' => 'default',
+)
+Request URL: /prova_php/questao4/tarefas/delete/1?url=tarefas%2Fdelete%2F1
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(3653): Model->setSource('tarefas_tags')
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(891): Model->schema()
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(919): Model->__isset('TarefasTag')
+#4 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(2793): Model->__get('TarefasTag')
+#5 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(2695): Model->_deleteLinks('1')
+#6 C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php(195): Model->delete()
+#7 [internal function]: TarefasController->delete('1')
+#8 C:\wamp\www\prova_php\questao4\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TarefasController), Array)
+#9 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#11 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-08 23:54:07 Error: [MissingTableException] Table tarefas_tags for model TarefasTag was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tarefas_tags',
+  'class' => 'TarefasTag',
+  'ds' => 'default',
+)
+Request URL: /prova_php/questao4/tarefas/delete/2?url=tarefas%2Fdelete%2F2
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(3653): Model->setSource('tarefas_tags')
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(891): Model->schema()
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(919): Model->__isset('TarefasTag')
+#4 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(2793): Model->__get('TarefasTag')
+#5 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(2695): Model->_deleteLinks('2')
+#6 C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php(195): Model->delete()
+#7 [internal function]: TarefasController->delete('2')
+#8 C:\wamp\www\prova_php\questao4\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TarefasController), Array)
+#9 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#11 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-08 23:54:39 Error: [MissingTableException] Table tarefas_tags for model TarefasTag was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tarefas_tags',
+  'class' => 'TarefasTag',
+  'ds' => 'default',
+)
+Request URL: /prova_php/questao4/tarefas/delete/3?url=tarefas%2Fdelete%2F3
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(3653): Model->setSource('tarefas_tags')
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(891): Model->schema()
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(919): Model->__isset('TarefasTag')
+#4 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(2793): Model->__get('TarefasTag')
+#5 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(2695): Model->_deleteLinks('3')
+#6 C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php(195): Model->delete()
+#7 [internal function]: TarefasController->delete('3')
+#8 C:\wamp\www\prova_php\questao4\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TarefasController), Array)
+#9 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#11 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-08 23:54:43 Error: [MissingTableException] Table tarefas_tags for model TarefasTag was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tarefas_tags',
+  'class' => 'TarefasTag',
+  'ds' => 'default',
+)
+Request URL: /prova_php/questao4/tarefas/delete/1?url=tarefas%2Fdelete%2F1
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(3653): Model->setSource('tarefas_tags')
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(891): Model->schema()
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(919): Model->__isset('TarefasTag')
+#4 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(2793): Model->__get('TarefasTag')
+#5 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(2695): Model->_deleteLinks('1')
+#6 C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php(195): Model->delete()
+#7 [internal function]: TarefasController->delete('1')
+#8 C:\wamp\www\prova_php\questao4\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TarefasController), Array)
+#9 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#11 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-08 23:54:49 Error: [MissingTableException] Table tarefas_tags for model TarefasTag was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tarefas_tags',
+  'class' => 'TarefasTag',
+  'ds' => 'default',
+)
+Request URL: /prova_php/questao4/tarefas/delete/2?url=tarefas%2Fdelete%2F2
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(3653): Model->setSource('tarefas_tags')
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(891): Model->schema()
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(919): Model->__isset('TarefasTag')
+#4 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(2793): Model->__get('TarefasTag')
+#5 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(2695): Model->_deleteLinks('2')
+#6 C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php(195): Model->delete()
+#7 [internal function]: TarefasController->delete('2')
+#8 C:\wamp\www\prova_php\questao4\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TarefasController), Array)
+#9 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#11 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-08 23:54:52 Error: [MissingTableException] Table tarefas_tags for model TarefasTag was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tarefas_tags',
+  'class' => 'TarefasTag',
+  'ds' => 'default',
+)
+Request URL: /prova_php/questao4/tarefas/delete/2?url=tarefas%2Fdelete%2F2
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(3653): Model->setSource('tarefas_tags')
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(891): Model->schema()
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(919): Model->__isset('TarefasTag')
+#4 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(2793): Model->__get('TarefasTag')
+#5 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(2695): Model->_deleteLinks('2')
+#6 C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php(195): Model->delete()
+#7 [internal function]: TarefasController->delete('2')
+#8 C:\wamp\www\prova_php\questao4\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TarefasController), Array)
+#9 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#11 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-08 23:55:56 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 23:56:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-08 23:57:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-09 00:01:11 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-09 00:01:23 Error: [MissingTableException] Table tarefas_tags for model TarefasTag was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tarefas_tags',
+  'class' => 'TarefasTag',
+  'ds' => 'default',
+)
+Request URL: /prova_php/questao4/tarefas/delete/3?url=tarefas%2Fdelete%2F3
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(3653): Model->setSource('tarefas_tags')
+#1 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(891): Model->schema()
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(919): Model->__isset('TarefasTag')
+#4 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(2793): Model->__get('TarefasTag')
+#5 C:\wamp\www\prova_php\questao4\lib\Cake\Model\Model.php(2695): Model->_deleteLinks('3')
+#6 C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php(194): Model->delete()
+#7 [internal function]: TarefasController->delete('3')
+#8 C:\wamp\www\prova_php\questao4\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TarefasController), Array)
+#9 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\prova_php\questao4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TarefasController), Object(CakeRequest))
+#11 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-09 00:03:32 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-09 00:08:12 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-09 00:11:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-09 00:13:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-09 00:13:12 Error: Fatal Error (1): Call to undefined function set() in [C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php, line 171]
+2015-12-09 00:13:12 Error: [FatalErrorException] Call to undefined function set()
+Request URL: /prova_php/questao4/tarefas/updatePriority/?url=tarefas%2FupdatePriority%2F
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp\www\pro...', 171)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp\www\pro...', 171, Array)
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp\www\pro...', 171, Array)
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-09 00:14:54 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-09 00:18:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-09 00:18:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-09 00:21:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-09 00:21:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-09 00:22:47 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-09 00:27:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-09 00:28:08 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-09 00:29:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-09 00:30:55 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-09 00:31:07 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-09 00:32:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-09 00:33:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-09 00:33:24 Error: Fatal Error (1): Call to undefined function set() in [C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php, line 171]
+2015-12-09 00:33:24 Error: [FatalErrorException] Call to undefined function set()
+Request URL: /prova_php/questao4/tarefas/updatePriority/?url=tarefas%2FupdatePriority%2F
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp\www\pro...', 171)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp\www\pro...', 171, Array)
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp\www\pro...', 171, Array)
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-09 00:33:51 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-09 00:33:55 Error: Fatal Error (1): Call to undefined function set() in [C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php, line 171]
+2015-12-09 00:33:55 Error: [FatalErrorException] Call to undefined function set()
+Request URL: /prova_php/questao4/tarefas/updatePriority/?url=tarefas%2FupdatePriority%2F
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp\www\pro...', 171)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp\www\pro...', 171, Array)
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp\www\pro...', 171, Array)
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-09 00:35:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-09 00:36:46 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-09 00:39:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-09 00:42:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-09 00:42:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-09 00:44:12 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-09 00:44:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-09 00:45:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-09 00:46:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-09 00:47:55 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-09 00:49:38 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-09 00:50:46 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-09 01:20:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-09 01:26:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-09 01:27:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-09 01:29:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-09 01:30:38 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-09 01:32:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-09 01:38:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-09 01:39:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-09 01:41:20 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-09 17:20:46 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /prova_php/questao4/js/jquery.min.map?url=js%2Fjquery.min.map
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-09 17:31:59 Error: Fatal Error (4): syntax error, unexpected ')' in [C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php, line 12]
+2015-12-09 17:31:59 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /prova_php/questao4/tarefas/listaTarefas?url=tarefas%2FlistaTarefas
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\pro...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\pro...', 12, Array)
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\pro...', 12, Array)
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-09 17:32:03 Error: Fatal Error (4): syntax error, unexpected ')' in [C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php, line 12]
+2015-12-09 17:32:03 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /prova_php/questao4/tarefas/listaTarefas?url=tarefas%2FlistaTarefas
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\pro...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\pro...', 12, Array)
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\pro...', 12, Array)
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-09 17:32:05 Error: Fatal Error (4): syntax error, unexpected ')' in [C:\wamp\www\prova_php\questao4\app\Controller\TarefasController.php, line 12]
+2015-12-09 17:32:05 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /prova_php/questao4/tarefas/listaTarefas?url=tarefas%2FlistaTarefas
+Stack Trace:
+#0 C:\wamp\www\prova_php\questao4\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\pro...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\pro...', 12, Array)
+#2 C:\wamp\www\prova_php\questao4\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\pro...', 12, Array)
+#3 C:\wamp\www\prova_php\questao4\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

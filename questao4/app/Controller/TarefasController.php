@@ -9,9 +9,7 @@ class TarefasController extends AppController {
     public function index() {
         $this->Tarefa->recursive = 0;
 
-        $tarefas = $this->Tarefa->find('all', array(
-            'order' => array('Tarefa.prioridade' => 'asc')
-        ));
+        $tarefas = $this->Tarefa->find('all');
 
         $this->set('tarefas', $tarefas);
         $this->set('_serialize', array('tarefas'));
@@ -21,6 +19,12 @@ class TarefasController extends AppController {
         if (!$this->Tarefa->exists($id)) {
             throw new NotFoundException(__('Invalid tarefa'));
         }
+        if (!empty($id)) {
+            $this->set('title_for_layout', 'Editar Tarefa');
+        } else {
+            $this->set('title_for_layout', 'Adicionar Tarefa');
+        }
+        
         $options = array('conditions' => array('Tarefa.' . $this->Tarefa->primaryKey => $id));
         $this->set('tarefa', $this->Tarefa->find('first', $options));
     }
@@ -32,15 +36,15 @@ class TarefasController extends AppController {
             'order' => array('Tarefa.prioridade' => 'asc'),
             'recursive' => 0,
         ));
+        
         $tarefas = $this->arrayTarefas($tarefas);
         echo json_encode($tarefas);
         exit;
     }
 
     public function arrayTarefas($arr) {
-
         $retorno = [];
-
+        
         foreach ($arr as $reg):
             $retorno[] = [
                 'id' => $reg['Tarefa']['id'],

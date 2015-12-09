@@ -1,13 +1,11 @@
-
 $(document).ready(function () {
     $('#TarefaNovo').on('click', function (e) {
         e.preventDefault();
         $('#modal1').openModal();
         $('#modal1 form #TarefaId').val('');
-    })
+    });
 
     $('#TarefaGravar').on('click', function (e) {
-
         e.preventDefault();
         id = $('#modal1 form #TarefaId').val();
         if ($.trim(id) == '') {
@@ -16,7 +14,7 @@ $(document).ready(function () {
         else {
             gravarEdicaoTarefa(id);
         }
-    })
+    });
 
     carregaTarefas();
 
@@ -32,23 +30,19 @@ $(document).ready(function () {
             }
         });
     });
-
-    function slideout() {
-        setTimeout(function () {
-            $("#response").slideUp("slow", function () {
-            });
-        }, 2000);
-    }
-
 });
 
+function slideout() {
+    setTimeout(function () {
+        $("#response").slideUp("slow", function () {
+        });
+    }, 2000);
+}
+
 function carregaTarefas() {
-
     $.getJSON($URLSISTEMA + 'tarefas/listaTarefas', function (data, txtStatus) {
-
         if (data.resultado.length > 0) {
             $('ol#lista-tarefas').html('');
-
             $.each(data.resultado, function (i, registro) {
                 divsec = '<div class="secondary-content"><a href="javascript:editarTarefa(' + registro.id + ')"><i class="material-icons">edit</i></a>';
                 divsec += '<a href="javascript:excluirTarefa(' + registro.id + ')" title="Exluir tarefa"><i class="material-icons">done</i></a></div>'
@@ -58,21 +52,14 @@ function carregaTarefas() {
                         .append(divsec)
                         .append('<input type="hidden" name="id" value="' + registro.id + '">')
                         .appendTo('ol#lista-tarefas');
-
             })
-
         }
-
         Materialize.showStaggeredList('ol#lista-tarefas');
-
     });
-
 }
 
 function excluirTarefa(id) {
-
     if (confirm('Deseja mesmo excluir este registro?')) {
-
         var cfg = {
             'method': 'GET',
             'url': $URLSISTEMA + 'tarefas/delete/' + id,
@@ -87,13 +74,11 @@ function excluirTarefa(id) {
                 //location.reload();
             }
         }
-
         $.ajax(cfg);
     }
 }
 
 function adicionarTarefa() {
-
     var cfg = {
         'method': 'POST',
         'url': $URLSISTEMA + 'tarefas/add',
@@ -120,15 +105,13 @@ function adicionarTarefa() {
 }
 
 function editarTarefa(id) {
-    $('#modal1').openModal({complete: limpaForm});
-    $('#modal1 form #TarefaDescricao').val($('#reg_' + id).find('.descricao').text()).addClass('active').focus();
-    $('#modal1 form #TarefaTitulo').val($('#reg_' + id).find('.titulo').text()).addClass('active').focus();
+    $('#modal1').openModal({complete: limpaForm()});
     $('#modal1 form #TarefaId').val(id);
-
+    $('#modal1 form #TarefaTitulo').val($('#reg_' + id).find('.titulo').text()).addClass('active').focus();
+    $('#modal1 form #TarefaDescricao').val($('#reg_' + id).find('.descricao').text()).addClass('active').focus();
 }
 
 function gravarEdicaoTarefa(id) {
-
     var cfg = {
         'method': 'POST',
         'url': $URLSISTEMA + 'tarefas/edit/' + id,
@@ -152,13 +135,11 @@ function gravarEdicaoTarefa(id) {
             limpaForm();
         }
     }
-
     $.ajax(cfg);
 }
 
 function limpaForm() {
+    $('#modal1 form #TarefaId').val('');
     $('#modal1 form #TarefaTitulo').val('');
     $('#modal1 form #TarefaDescricao').val('');
-    $('#modal1 form #TarefaId').val('');
 }
-	

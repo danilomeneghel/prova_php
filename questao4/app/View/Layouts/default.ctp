@@ -27,7 +27,7 @@
         <header>
             <nav class="top-nav">
                 <div class="container">
-                    <div class="nav-wrapper"><a class="brand-logo">Sistema Administrativo</a></div>
+                    <div class="nav-wrapper"><a class="brand-logo">Sistema Gerenciador de Tarefas</a></div>
                 </div>
             </nav>
         </header>
